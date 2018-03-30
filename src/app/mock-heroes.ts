@@ -1,11 +1,14 @@
-import { Hero } from './hero'; // importe la classe Hero
+import { Hero } from './hero';
 
-export const HEROES: Hero[] = [  // exporte la constante HEROES qui est un tableau
-  { id: 11, name: 'Batman' },
-  { id: 12, name: 'Flash' },
-  { id: 13, name: 'Superman' },
-  { id: 14, name: 'Spiderman' },
-  { id: 15, name: 'Iron Man' },
-  { id: 16, name: 'Hulk' },
-
+export const HEROES: Hero[] = [
+  { id: 11, name: 'Dr.Strange' },
+  { id: 12, name: 'Hulk' },
+  { id: 13, name: 'Spider-Man' },
+  { id: 14, name: 'Iron-Man' },
+  { id: 15, name: 'Magneto' },
+  { id: 16, name: 'Wolwerine' },
+  { id: 17, name: 'Black-Panther' },
+  { id: 18, name: 'Iron Fist' },
+  { id: 19, name: 'Deadpool' },
+  { id: 20, name: 'Groot' }
 ];
